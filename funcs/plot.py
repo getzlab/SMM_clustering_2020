@@ -718,3 +718,89 @@ def plot_marker_heatmap_fig1(
     ax.tick_params(axis='x', which=u'both',length=0)
 
     return fig
+
+def plot_rnaseqc_metrics_grid(metrics: pd.DataFrame, median_exon_cv_cutoff: float, figsize: tuple = (9,9)):
+    """
+    Plot RNASeQC Metrics grid.
+    """
+    def _format_ax(ax):
+        ax.spines['right'].set_visible(False)
+        ax.spines['top'].set_visible(False)
+        for axis in ['bottom','left',]:
+            ax.spines[axis].set_linewidth(1)
+
+    # Plot figure
+    fig,axes = plt.subplots(2, 2, figsize=figsize, sharey=True)
+    cax = fig.add_axes([0.15, 0.6, 0.1, 0.01])
+
+    im = axes[0,0].scatter(
+        metrics["Duplicate Rate of Mapped"],
+        metrics['Genes Detected'],
+        s=80,
+        alpha=0.8,
+        c=np.log(metrics['Unique Mapping, Vendor QC Passed Reads']),
+        edgecolor='black',
+        linewidth=0.4,
+        cmap='coolwarm'
+    )
+
+    fig.colorbar(im, cax=cax, orientation='horizontal')
+    cax.set_title("log Unique Mapping", fontsize=8)
+
+    axes[0,0].set_ylabel('Genes Detected',fontsize=16)
+
+    _format_ax(axes[0,0])
+
+    im = axes[0,1].scatter(
+        metrics["Median Exon CV"],
+        metrics['Genes Detected'],
+        s=80,
+        alpha=0.8,
+        c=np.log(metrics['Unique Mapping, Vendor QC Passed Reads']),
+        edgecolor='black',
+        linewidth=0.4,
+        cmap='coolwarm'
+    )
+    _format_ax(axes[0,1])
+
+    axes[1,0].set_xlabel('Duplicate Rate',fontsize=16)
+    axes[1,1].set_xlabel('Median Exon CV',fontsize=16)
+
+    im = axes[1,0].scatter(
+        metrics["Duplicate Rate of Mapped"],
+        metrics['Genes Detected'],
+        s=80,
+        alpha=0.8,
+        c=metrics['filter'].apply(lambda x: 'lightgrey' if x else 'red'),
+        edgecolor='black',
+        linewidth=0.4,
+        cmap='coolwarm'
+    )
+
+    axes[1,0].set_ylabel('Genes Detected',fontsize=16)
+
+    _format_ax(axes[1,0])
+
+    im = axes[1,1].scatter(
+        metrics["Median Exon CV"],
+        metrics['Genes Detected'],
+        s=80,
+        alpha=0.8,
+        c=metrics['filter'].apply(lambda x: 'lightgrey' if x else 'red'),
+        edgecolor='black',
+        linewidth=0.4,
+        cmap='coolwarm'
+    )
+    _format_ax(axes[1,1])
+
+    axes[1,0].set_xlim(*axes[1,0].get_xlim())
+    axes[1,0].set_ylim(*axes[1,0].get_ylim())
+
+    axes[1,0].scatter(-1,0,c='red',label='Filter')
+    axes[1,0].scatter(-1,0,c='lightgrey',label='Keep')
+    axes[1,0].legend(loc='lower left')
+
+    axes[1,1].axvspan(.8, axes[1,1].get_xlim()[1], zorder=0, alpha=0.1, color='lightgrey')
+    axes[0,1].axvspan(.8, axes[1,1].get_xlim()[1], zorder=0, alpha=0.1, color='lightgrey')
+
+    plt.tight_layout()

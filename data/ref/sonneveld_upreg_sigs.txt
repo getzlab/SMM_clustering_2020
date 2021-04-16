@@ -1,0 +1,444 @@
+subtype	FDR	geom_mean_c1	geom_mean_c2	fold_change	probe_set	description	gene_symbol
+CD-2	< 1e-07	49.3380291	0.6290898	78.4276405	208711_s_at	cyclin D1	CCND1
+CD-2	< 1e-07	34.2923882	0.656892	52.2039943	228592_at	"membrane-spanning 4-domains, subfamily A, member 1"	MS4A1
+CD-2	< 1e-07	23.8902007	0.685734	34.8388741	208712_at	cyclin D1	CCND1
+CD-2	< 1e-07	15.2245826	0.7234653	21.043972	223823_at	"potassium large conductance calcium-activated channel, subfamily M, beta member 2"	KCNMB2
+CD-2	< 1e-07	12.9579155	0.7374636	17.5709229	235518_at	"solute carrier family 8 (sodium/calcium exchanger), member 1"	SLC8A1
+CD-2	< 1e-07	10.3334082	0.7575749	13.6401139	220068_at	pre-B lymphocyte gene 3	VPREB3
+CD-2	< 1e-07	10.233662	0.758449	13.4928807	210356_x_at	"membrane-spanning 4-domains, subfamily A, member 1"	MS4A1
+CD-2	< 1e-07	10.0060668	0.7604796	13.157574	228599_at	"membrane-spanning 4-domains, subfamily A, member 1"	MS4A1
+CD-2	< 1e-07	9.7676621	0.7626628	12.8073138	225842_at	"pleckstrin homology-like domain, family A, member 1"	PHLDA1
+CD-2	< 1e-07	9.5695899	0.7645225	12.51708	221969_at	Transcribed locus	
+CD-2	< 1e-07	8.741967	0.7727881	11.3122429	217418_x_at	"membrane-spanning 4-domains, subfamily A, member 1"	MS4A1
+CD-2	< 1e-07	8.533037	0.7750137	11.0101761	217996_at	"pleckstrin homology-like domain, family A, member 1"	PHLDA1
+CD-2	< 1e-07	8.1101177	0.7797113	10.4014366	221097_s_at	"potassium large conductance calcium-activated channel, subfamily M, beta member 2"	KCNMB2
+CD-2	< 1e-07	8.0296962	0.7806356	10.2861003	227948_at	"FYVE, RhoGEF and PH domain containing 4"	FGD4
+CD-2	< 1e-07	7.5346911	0.7865629	9.5792605	206385_s_at	"ankyrin 3, node of Ranvier (ankyrin G)"	ANK3
+CD-2	< 1e-07	7.5244854	0.7866897	9.5647438	231093_at	Fc receptor-like 3	FCRL3
+CD-2	< 1e-07	7.4922987	0.7870907	9.5189777	236065_at	Transcribed locus	
+CD-2	< 1e-07	7.208593	0.790711	9.1165965	224818_at	sortilin 1	SORT1
+CD-2	< 1e-07	6.1418	0.80591	7.6209505	212807_s_at	sortilin 1	SORT1
+CD-2	< 1e-07	5.9483087	0.8089827	7.3528256	238452_at	Fc receptor-like B	FCRLB
+CD-2	< 1e-07	5.8770001	0.8101434	7.2542713	243780_at	"CDNA FLJ46553 fis, clone THYMU3038879"	
+CD-2	< 1e-07	5.842093	0.8107174	7.2060784	201721_s_at	lysosomal associated multispanning membrane protein 5	LAPTM5
+CD-2	< 1e-07	5.8331758	0.8108646	7.1937727	217997_at	"pleckstrin homology-like domain, family A, member 1"	PHLDA1
+CD-2	< 1e-07	5.6514876	0.8139206	6.9435366	206150_at	CD27 molecule	CD27
+CD-2	< 1e-07	5.106778	0.8237865	6.199152	205049_s_at	"CD79a molecule, immunoglobulin-associated alpha"	CD79A
+CD-2	< 1e-07	4.9586269	0.8266747	5.9982805	225897_at	myristoylated alanine-rich protein kinase C substrate	MARCKS
+CD-2	0.0000067	4.8864053	0.8281179	5.9006154	221933_at	"neuroligin 4, X-linked"	NLGN4X
+CD-2	< 1e-07	4.7380153	0.8311594	5.7004891	1558662_s_at	B-cell scaffold protein with ankyrin repeats 1	BANK1
+CD-2	0.0000036	4.7265825	0.8313982	5.685101	210258_at	regulator of G-protein signaling 13	RGS13
+CD-2	< 1e-07	4.3968018	0.8385774	5.2431675	225955_at	"meteorin, glial cell differentiation regulator-like /// similar to meteorin, glial cell differentiation regulator-like"	LOC653506 /// METRNL
+CD-2	< 1e-07	4.3662392	0.8392731	5.2024057	218909_at	"ribosomal protein S6 kinase, 52kDa, polypeptide 1"	RPS6KC1
+CD-2	< 1e-07	4.3109331	0.8405459	5.1287299	228153_at	ring finger 144B	RNF144B
+CD-2	< 1e-07	4.2947309	0.8409223	5.1071674	219667_s_at	B-cell scaffold protein with ankyrin repeats 1	BANK1
+CD-2	< 1e-07	4.2549484	0.8418532	5.0542643	235802_at	"phospholipase D family, member 4"	PLD4
+CD-2	0.0000067	4.2325897	0.8423806	5.0245574	1563674_at	Fc receptor-like 2	FCRL2
+CD-2	< 1e-07	4.1815663	0.843596	4.9568349	205997_at	ADAM metallopeptidase domain 28	ADAM28
+CD-2	< 1e-07	4.0951553	0.8456928	4.8423677	225188_at	Ras association (RalGDS/AF-6) and pleckstrin homology domains 1	RAPH1
+CD-2	< 1e-07	4.0673025	0.8463792	4.8055323	235735_at	Full length insert cDNA clone ZC64D04	
+CD-2	< 1e-07	4.064549	0.8464473	4.8018925	218051_s_at	5'-nucleotidase domain containing 2	NT5DC2
+CD-2	0.0000095	4.0569903	0.8466346	4.7919021	209696_at	"fructose-1,6-bisphosphatase 1"	FBP1
+CD-2	< 1e-07	3.9865997	0.8483981	4.6989729	209289_at	nuclear factor I/B	NFIB
+CD-2	< 1e-07	3.980684	0.8485479	4.6911718	1559975_at	"B-cell translocation gene 1, anti-proliferative"	BTG1
+CD-2	< 1e-07	3.9535974	0.8492369	4.6554705	236694_at	chromosome Y open reading frame 15A	CYorf15A
+CD-2	0.0006181	3.8620349	0.8516058	4.5350029	225681_at	collagen triple helix repeat containing 1	CTHRC1
+CD-2	< 1e-07	3.8200879	0.8527122	4.4799265	208890_s_at	plexin B2	PLXNB2
+CD-2	< 1e-07	3.8144828	0.852861	4.4725724	209290_s_at	nuclear factor I/B	NFIB
+CD-2	< 1e-07	3.7204347	0.8553959	4.3493715	233059_at	"CDNA: FLJ22731 fis, clone HSI15841"	
+CD-2	< 1e-07	3.7199229	0.8554099	4.3487021	216060_s_at	dishevelled associated activator of morphogenesis 1	DAAM1
+CD-2	< 1e-07	3.7150105	0.8555443	4.3422772	206953_s_at	latrophilin 2	LPHN2
+CD-2	< 1e-07	3.6538548	0.8572342	4.2623763	235764_at	Transcribed locus	
+CD-1	0.0000152	25.3625836	0.8720453	29.0840214	230493_at	shisa homolog 2 (Xenopus laevis)	SHISA2
+CD-1	0.0000078	15.80807	0.8896786	17.7682928	235278_at	MACRO domain containing 2	MACROD2
+CD-1	< 1e-07	12.553168	0.8984067	13.9727009	210587_at	"inhibin, beta E"	INHBE
+CD-1	0.0000653	11.2970595	0.9024266	12.5185357	218589_at	"purinergic receptor P2Y, G-protein coupled, 5"	P2RY5
+CD-1	< 1e-07	10.9954476	0.9034613	12.1703581	206760_s_at	"Fc fragment of IgE, low affinity II, receptor for (CD23)"	FCER2
+CD-1	0.0006098	10.0983844	0.9067231	11.1372309	207076_s_at	argininosuccinate synthetase 1	ASS1
+CD-1	0.0001138	10.0364981	0.9069591	11.0660972	223823_at	"potassium large conductance calcium-activated channel, subfamily M, beta member 2"	KCNMB2
+CD-1	< 1e-07	8.9180105	0.9115083	9.7837949	206759_at	"Fc fragment of IgE, low affinity II, receptor for (CD23)"	FCER2
+CD-1	0.0018807	8.5231927	0.9132578	9.3327344	221911_at	ets variant gene 1	ETV1
+CD-1	0.0000078	8.0790947	0.9153295	8.8264329	225285_at	"branched chain aminotransferase 1, cytosolic"	BCAT1
+CD-1	< 1e-07	7.9077915	0.9161606	8.6314469	239468_at	mohawk homeobox	MKX
+CD-1	< 1e-07	7.4388503	0.9185353	8.0986006	217127_at	cystathionase (cystathionine gamma-lyase)	CTH
+CD-1	0.0000216	7.425297	0.9186062	8.0832209	204328_at	transmembrane channel-like 6	TMC6
+CD-1	0.002176	7.4195051	0.9186366	8.0766489	212589_at	related RAS viral (r-ras) oncogene homolog 2	RRAS2
+CD-1	0.000028	7.2884628	0.91933	7.9280158	219667_s_at	B-cell scaffold protein with ankyrin repeats 1	BANK1
+CD-1	0.0002999	7.2260436	0.9196649	7.8572572	243780_at	"CDNA FLJ46553 fis, clone THYMU3038879"	
+CD-1	< 1e-07	6.9635258	0.9211072	7.5599518	209921_at	"solute carrier family 7, (cationic amino acid transporter, y+ system) member 11"	SLC7A11
+CD-1	< 1e-07	6.6877027	0.9226849	7.2480893	1558662_s_at	B-cell scaffold protein with ankyrin repeats 1	BANK1
+CD-1	0.0104183	6.4598527	0.9240403	6.990878	208711_s_at	cyclin D1	CCND1
+CD-1	0.0000409	6.3906113	0.9244621	6.9127892	226517_at	"branched chain aminotransferase 1, cytosolic"	BCAT1
+CD-1	0.0000078	6.3729892	0.9245701	6.8929213	225864_at	"family with sequence similarity 84, member B"	FAM84B
+CD-1	0.000182	6.2006087	0.9256443	6.6986946	221097_s_at	"potassium large conductance calcium-activated channel, subfamily M, beta member 2"	KCNMB2
+CD-1	0.0004319	6.1423549	0.9260144	6.6331095	204114_at	nidogen 2 (osteonidogen)	NID2
+CD-1	0.0012285	6.0299687	0.9267388	6.5066541	221969_at	Transcribed locus	
+CD-1	0.0045346	5.9819354	0.9270527	6.452638	201029_s_at	CD99 molecule	CD99
+CD-1	< 1e-07	5.9611484	0.9271893	6.4292676	212446_s_at	"LAG1 homolog, ceramide synthase 6"	LASS6
+CD-1	< 1e-07	5.5319288	0.9301279	5.9474923	209210_s_at	fermitin family homolog 2 (Drosophila)	FERMT2
+CD-1	< 1e-07	4.9686152	0.9343675	5.3176243	219892_at	transmembrane 6 superfamily member 1	TM6SF1
+CD-1	0.0002634	4.8593663	0.9352476	5.1958074	227792_at	hypothetical protein LOC162073	LOC162073
+CD-1	< 1e-07	4.7682678	0.9359974	5.0943175	220358_at	"basic leucine zipper transcription factor, ATF-like 3"	BATF3
+CD-1	0.0000635	4.5720571	0.9376643	4.8760063	200628_s_at	tryptophanyl-tRNA synthetase	WARS
+CD-1	< 1e-07	4.5537145	0.937824	4.8556176	233500_x_at	"C-type lectin domain family 2, member D"	CLEC2D
+CD-1	0.0005574	4.4655519	0.9386007	4.7576696	213524_s_at	G0/G1switch 2	G0S2
+CD-1	0.0000078	4.4566845	0.9386797	4.7478226	230659_at	Transcribed locus	
+CD-1	0.0007557	4.3871369	0.9393051	4.67062	231576_at	Transcribed locus	
+CD-1	0.0000653	4.3312316	0.9398153	4.6085987	201951_at	activated leukocyte cell adhesion molecule	ALCAM
+CD-1	< 1e-07	4.1274468	0.9417352	4.3828104	219270_at	"ChaC, cation transport regulator homolog 1 (E. coli)"	CHAC1
+CD-1	< 1e-07	4.0951216	0.9420488	4.3470377	212646_at	"raftlin, lipid raft linker 1"	RFTN1
+CD-1	0.0003971	4.0705662	0.9422887	4.3198715	201830_s_at	neuroepithelial cell transforming gene 1	NET1
+CD-1	0.0008157	4.0026173	0.9429606	4.2447341	231779_at	interleukin-1 receptor-associated kinase 2	IRAK2
+CD-1	0.0002999	4.001535	0.9429715	4.2435378	209035_at	midkine (neurite growth-promoting factor 2)	MDK
+CD-1	0.0007557	3.9684379	0.9433032	4.2069592	203767_s_at	"steroid sulfatase (microsomal), isozyme S"	STS
+CD-1	0.001073	3.9607358	0.9433807	4.1984488	225955_at	"meteorin, glial cell differentiation regulator-like /// similar to meteorin, glial cell differentiation regulator-like"	LOC653506 /// METRNL
+CD-1	0.0022947	3.9039716	0.9439576	4.1357489	242134_at	Transcribed locus	
+CD-1	< 1e-07	3.8695689	0.9443115	4.0977675	223027_at	sorting nexin 9	SNX9
+CD-1	0.0007598	3.822411	0.9448019	4.0457273	230740_at	Transcribed locus	
+CD-1	0.0065776	3.8062163	0.9449718	4.0278623	202145_at	"lymphocyte antigen 6 complex, locus E"	LY6E
+CD-1	0.0018513	3.7611089	0.945449	3.9781194	206398_s_at	CD19 molecule	CD19
+CD-1	< 1e-07	3.6915566	0.9461965	3.9014691	209822_s_at	very low density lipoprotein receptor	VLDLR
+CD-1	0.0000078	3.6659727	0.9464752	3.8732897	212993_at	BTB (POZ) domain containing 14A	BTBD14A
+CTA	< 1e-07	6.599521	0.8699596	7.5860086	210387_at	"histone cluster 1, H2bg"	HIST1H2BG
+CTA	< 1e-07	4.485077	0.8951231	5.01057	206102_at	GINS complex subunit 1 (Psf1 homolog)	GINS1
+CTA	< 1e-07	4.4277244	0.895974	4.9418003	208955_at	deoxyuridine triphosphatase	DUT
+CTA	0.0004846	4.2969984	0.8979585	4.7852973	238021_s_at	hCG1815491	hCG_1815491
+CTA	< 1e-07	4.1232553	0.9006988	4.5778404	238762_at	methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2-like	MTHFD2L
+CTA	0.0006999	4.116638	0.9008056	4.5699515	206834_at	"hemoglobin, beta /// hemoglobin, delta"	HBB /// HBD
+CTA	< 1e-07	4.1031266	0.9010243	4.553847	227212_s_at	PHD finger protein 19	PHF19
+CTA	0.0000022	4.016452	0.9024456	4.4506308	202016_at	mesoderm specific transcript homolog (mouse)	MEST
+CTA	0.0000349	3.8199491	0.9057937	4.2172395	203213_at	"cell division cycle 2, G1 to S and G2 to M"	CDC2
+CTA	0.0000109	3.7715417	0.9066469	4.1598792	238022_at	hCG1815491	hCG_1815491
+CTA	0.0035044	3.6945174	0.9080291	4.0687215	209942_x_at	"melanoma antigen family A, 3"	MAGEA3
+CTA	< 1e-07	3.6358618	0.9091026	3.9993966	202095_s_at	baculoviral IAP repeat-containing 5 (survivin)	BIRC5
+CTA	< 1e-07	3.4671961	0.9122961	3.8005161	223679_at	"catenin (cadherin-associated protein), beta 1, 88kDa"	CTNNB1
+CTA	0.0000022	3.4108436	0.9134004	3.7342259	210253_at	"HIV-1 Tat interactive protein 2, 30kDa"	HTATIP2
+CTA	< 1e-07	3.3794408	0.9140244	3.6973204	1557137_at	transmembrane protein 17	TMEM17
+CTA	< 1e-07	3.3792098	0.914029	3.697049	1552822_at	thioredoxin domain containing 10	TXNDC10
+CTA	0.0042308	3.3310771	0.9149975	3.6405312	214612_x_at	"melanoma antigen family A, 6"	MAGEA6
+CTA	< 1e-07	3.2592825	0.9164705	3.5563419	219076_s_at	"peroxisomal membrane protein 2, 22kDa"	PXMP2
+CTA	0.0009654	3.2523552	0.9166145	3.5482257	214230_at	"cell division cycle 42 (GTP binding protein, 25kDa)"	CDC42
+CTA	0.0001595	3.2487389	0.9166898	3.5439894	210942_s_at	"ST3 beta-galactoside alpha-2,3-sialyltransferase 6"	ST3GAL6
+CTA	0.0055428	3.2344274	0.9169886	3.5272275	235401_s_at	Fc receptor-like A	FCRLA
+CTA	0.0000612	3.2128384	0.9174421	3.5019522	202503_s_at	KIAA0101	KIAA0101
+CTA	< 1e-07	3.1937029	0.9178468	3.4795598	224496_s_at	transmembrane protein 107	TMEM107
+CTA	< 1e-07	3.1391471	0.9190151	3.4157733	205943_at	"tryptophan 2,3-dioxygenase"	TDO2
+CTA	< 1e-07	3.10996	0.9196491	3.3816813	203401_at	phosphoribosyl pyrophosphate synthetase 2	PRPS2
+CTA	0.0001411	3.0928454	0.9200238	3.3617016	213355_at	"ST3 beta-galactoside alpha-2,3-sialyltransferase 6"	ST3GAL6
+CTA	< 1e-07	3.0862216	0.9201694	3.3539711	230099_at	Transcribed locus	
+CTA	< 1e-07	3.0591555	0.920768	3.3223956	219148_at	PDZ binding kinase	PBK
+CTA	0.0001378	3.0111278	0.9218443	3.2664169	202746_at	integral membrane protein 2A	ITM2A
+CTA	< 1e-07	2.9665801	0.9228592	3.2145532	210467_x_at	"melanoma antigen family A, 12"	MAGEA12
+CTA	0.0001978	2.9573068	0.9230726	3.2037642	235902_at	"CDNA FLJ42963 fis, clone BRSTN2012380"	
+CTA	0.0035068	2.9472548	0.9233046	3.192072	201890_at	ribonucleotide reductase M2 polypeptide	RRM2
+CTA	0.0000516	2.930341	0.923697	3.172405	1552426_a_at	TM2 domain containing 3	TM2D3
+CTA	0.0008875	2.926436	0.9237879	3.1678655	204638_at	"acid phosphatase 5, tartrate resistant"	ACP5
+CTA	0.0037704	2.9139097	0.9240805	3.1533071	205483_s_at	ISG15 ubiquitin-like modifier	ISG15
+CTA	< 1e-07	2.8970189	0.9244772	3.1336834	222477_s_at	transmembrane 7 superfamily member 3	TM7SF3
+CTA	0.0010976	2.8903511	0.9246345	3.1259391	204159_at	"cyclin-dependent kinase inhibitor 2C (p18, inhibits CDK4)"	CDKN2C
+CTA	0.0000126	2.8862304	0.9247319	3.1211537	206897_at	"P antigen family, member 1 (prostate associated)"	PAGE1
+CTA	0.0000109	2.8637685	0.9252654	3.0950779	203554_x_at	pituitary tumor-transforming 1	PTTG1
+CTA	0.0000712	2.8509907	0.9255709	3.080251	207739_s_at		Multiple Gene Symbols
+CTA	0.0006069	2.8448992	0.9257171	3.0731843	225105_at	overexpressed in colon carcinoma-1	OCC-1
+CTA	0.0000095	2.829401	0.9260905	3.0552101	213087_s_at	CDNA clone IMAGE:4838699	
+CTA	0.0000286	2.797486	0.9268664	3.0182192	202732_at	"protein kinase (cAMP-dependent, catalytic) inhibitor gamma"	PKIG
+CTA	0.0015879	2.7664395	0.9276303	2.9822651	225767_at		
+CTA	0.000845	2.7580886	0.9278374	2.9725991	219569_s_at	transmembrane protein 22	TMEM22
+CTA	0.0000335	2.7283461	0.9285804	2.9381906	208235_x_at	G antigen 7 /// G antigen 12I /// G antigen 12G /// G antigen 12J /// G antigen 12F	GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE7
+CTA	0.0003534	2.7263549	0.9286304	2.935888	213931_at	"inhibitor of DNA binding 2, dominant negative helix-loop-helix protein /// inhibitor of DNA binding 2B, dominant negative helix-loop-helix protein"	ID2 /// ID2B
+CTA	0.0001939	2.7244902	0.9286773	2.9337317	228361_at	E2F transcription factor 2	E2F2
+CTA	0.0000077	2.7115407	0.929004	2.9187609	222781_s_at	chromosome 9 open reading frame 40	C9orf40
+CTA	0.0036596	2.7090516	0.929067	2.9158839	209108_at	tetraspanin 6	TSPAN6
+NFkB	< 1e-07	13.6270564	0.7106994	19.1741492	214230_at	"cell division cycle 42 (GTP binding protein, 25kDa)"	CDC42
+NFkB	< 1e-07	8.8220653	0.7522708	11.7272467	202643_s_at	"tumor necrosis factor, alpha-induced protein 3"	TNFAIP3
+NFkB	< 1e-07	8.2468719	0.7589313	10.8664275	211032_at	COBL-like 1	COBLL1
+NFkB	< 1e-07	7.7958985	0.7645318	10.1969573	1557257_at	B-cell CLL/lymphoma 10	BCL10
+NFkB	< 1e-07	7.3361055	0.7706324	9.5195915	1559249_at	ataxin 1	ATXN1
+NFkB	< 1e-07	6.7229608	0.7794765	8.624969	208622_s_at	ezrin	EZR
+NFkB	< 1e-07	6.6841212	0.7800672	8.5686479	230082_at	hypothetical LOC100133660	LOC100133660
+NFkB	< 1e-07	6.3908941	0.7846559	8.144837	233506_at	Full length insert cDNA clone ZB81B12	
+NFkB	< 1e-07	6.3253042	0.7857149	8.0503811	1554229_at	chromosome 5 open reading frame 41	C5orf41
+NFkB	< 1e-07	6.2659251	0.7866844	7.9649798	238633_at	Enhancer of polycomb homolog 1 (Drosophila)	EPC1
+NFkB	< 1e-07	6.1771594	0.7881532	7.8375108	1552542_s_at	T-cell activation RhoGTPase activating protein	TAGAP
+NFkB	< 1e-07	6.1112454	0.7892594	7.743012	36711_at	v-maf musculoaponeurotic fibrosarcoma oncogene homolog F (avian)	MAFF
+NFkB	< 1e-07	5.8102423	0.7944886	7.313185	222309_at	Chromosome 6 open reading frame 62	C6orf62
+NFkB	< 1e-07	5.5999541	0.798327	7.0146118	202859_x_at	interleukin 8	IL8
+NFkB	< 1e-07	5.5357971	0.7995306	6.9238087	204141_at	"tubulin, beta 2A"	TUBB2A
+NFkB	< 1e-07	5.4277944	0.8015929	6.771261	1559975_at	"B-cell translocation gene 1, anti-proliferative"	BTG1
+NFkB	< 1e-07	5.3042401	0.8040097	6.5972341	207574_s_at	"growth arrest and DNA-damage-inducible, beta"	GADD45B
+NFkB	< 1e-07	5.2172974	0.8057488	6.4750914	1558111_at	muscleblind-like (Drosophila)	MBNL1
+NFkB	< 1e-07	5.0586634	0.8090082	6.2529199	224783_at	"family with sequence similarity 100, member B"	FAM100B
+NFkB	< 1e-07	4.9829666	0.8106044	6.1472233	203543_s_at	Kruppel-like factor 9	KLF9
+NFkB	< 1e-07	4.9789671	0.8106896	6.1416444	209305_s_at	"growth arrest and DNA-damage-inducible, beta"	GADD45B
+NFkB	< 1e-07	4.9564081	0.811171	6.1101888	203927_at	"nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, epsilon"	NFKBIE
+NFkB	< 1e-07	4.8862019	0.8126854	6.012415	237097_at	MRNA; cDNA DKFZp761H0824 (from clone DKFZp761H0824)	
+NFkB	< 1e-07	4.6170097	0.8187289	5.6392413	209304_x_at	"growth arrest and DNA-damage-inducible, beta"	GADD45B
+NFkB	< 1e-07	4.5810883	0.8195654	5.5896558	1554719_at	"NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 10, 42kDa"	NDUFA10
+NFkB	< 1e-07	4.4885415	0.8217551	5.4621399	203542_s_at	Kruppel-like factor 9	KLF9
+NFkB	< 1e-07	4.4142308	0.8235507	5.3599989	210232_at	"cell division cycle 42 (GTP binding protein, 25kDa)"	CDC42
+NFkB	< 1e-07	4.3878047	0.8241975	5.32373	222044_at	PDX1 C-terminal inhibiting factor 1	PCIF1
+NFkB	< 1e-07	4.16252	0.8298968	5.015708	240038_at	Transcribed locus	
+NFkB	0.0000481	4.0643815	0.8324896	4.882201	205114_s_at		CCL3 /// CCL3L1 /// CCL3L3 /// LOC728830
+NFkB	< 1e-07	4.0345492	0.8332918	4.8417002	1560225_at	Cannabinoid receptor 1 (brain)	CNR1
+NFkB	< 1e-07	3.8916576	0.8372296	4.648256	226342_at	"spectrin, beta, non-erythrocytic 1"	SPTBN1
+NFkB	< 1e-07	3.8097232	0.8395621	4.5377506	236609_at	Hypothetical protein LOC100129592	LOC100129592
+NFkB	< 1e-07	3.7276914	0.8419548	4.4274246	217682_at	"CDNA FLJ37032 fis, clone BRACE2011265"	
+NFkB	< 1e-07	3.7252764	0.8420261	4.4241815	200730_s_at	"protein tyrosine phosphatase type IVA, member 1"	PTP4A1
+NFkB	< 1e-07	3.6764212	0.8434807	4.3586311	219681_s_at	RAB11 family interacting protein 1 (class I)	RAB11FIP1
+NFkB	< 1e-07	3.6607544	0.8439518	4.3376345	228562_at	Transcribed locus	
+NFkB	< 1e-07	3.6262394	0.8449977	4.2914193	208960_s_at	Kruppel-like factor 6	KLF6
+NFkB	0.0032819	3.601143	0.8457653	4.2578516	206701_x_at	endothelin receptor type B	EDNRB
+NFkB	< 1e-07	3.555942	0.8471632	4.1974701	208961_s_at	Kruppel-like factor 6	KLF6
+NFkB	< 1e-07	3.530539	0.8479576	4.1635796	214169_at	unc-84 homolog A (C. elegans)	UNC84A
+NFkB	< 1e-07	3.5298889	0.847978	4.1627127	209545_s_at	receptor-interacting serine-threonine kinase 2	RIPK2
+NFkB	< 1e-07	3.5223291	0.8482158	4.1526335	238389_s_at	"Transcribed locus, moderately similar to XP_001093747.1 PREDICTED: tumor protein p53 binding protein, 2 [Macaca mulatta]"	
+NFkB	< 1e-07	3.4934409	0.8491295	4.1141438	209536_s_at	EH-domain containing 4	EHD4
+NFkB	< 1e-07	3.4691199	0.8499055	4.0817715	218486_at	Kruppel-like factor 11	KLF11
+NFkB	< 1e-07	3.330996	0.8544322	3.8984909	227044_at	Transcribed locus	
+NFkB	< 1e-07	3.2609226	0.8568106	3.8058852	205193_at	v-maf musculoaponeurotic fibrosarcoma oncogene homolog F (avian)	MAFF
+NFkB	< 1e-07	3.2326093	0.857788	3.7685411	225239_at	"CDNA FLJ26120 fis, clone SYN00419"	
+NFkB	0.0001686	3.2049201	0.8587533	3.7320615	229437_at	microRNA 155	MIRN155
+NFkB	< 1e-07	3.1967977	0.8590383	3.7213682	203411_s_at	lamin A/C	LMNA
+HY	< 1e-07	4.9789202	0.6013082	8.2801475	222943_at	"glucosidase, beta, acid 3 (cytosolic)"	GBA3
+HY	< 1e-07	3.7886776	0.6556819	5.7782249	219954_s_at	"glucosidase, beta, acid 3 (cytosolic)"	GBA3
+HY	0.0000104	3.4713708	0.674109	5.1495688	219463_at	chromosome 20 open reading frame 103	C20orf103
+HY	< 1e-07	3.4344139	0.6763992	5.0774957	203153_at	interferon-induced protein with tetratricopeptide repeats 1	IFIT1
+HY	< 1e-07	3.3976422	0.6787103	5.006027	214329_x_at	"tumor necrosis factor (ligand) superfamily, member 10"	TNFSF10
+HY	< 1e-07	3.2924496	0.6855079	4.8029347	202687_s_at	"tumor necrosis factor (ligand) superfamily, member 10"	TNFSF10
+HY	< 1e-07	3.1700114	0.6937894	4.5691265	212843_at	neural cell adhesion molecule 1	NCAM1
+HY	< 1e-07	3.1609428	0.6944195	4.5519212	205051_s_at	v-kit Hardy-Zuckerman 4 feline sarcoma viral oncogene homolog	KIT
+HY	< 1e-07	3.128972	0.69666	4.4913903	202688_at	"tumor necrosis factor (ligand) superfamily, member 10"	TNFSF10
+HY	< 1e-07	3.096487	0.6989676	4.4300864	206609_at	"melanoma antigen family C, 1"	MAGEC1
+HY	< 1e-07	2.8715553	0.7158719	4.0112699	202973_x_at	"family with sequence similarity 13, member A1"	FAM13A1
+HY	< 1e-07	2.8395766	0.7184167	3.952548	211434_s_at	chemokine (C-C motif) receptor-like 2 /// similar to chemokine (C-C motif) receptor-like 2	CCRL2 /// LOC727811
+HY	< 1e-07	2.8172746	0.7202139	3.9117192	201842_s_at	EGF-containing fibulin-like extracellular matrix protein 1	EFEMP1
+HY	< 1e-07	2.8104648	0.7207665	3.8992723	227099_s_at	hypothetical LOC387763	LOC387763
+HY	< 1e-07	2.7344049	0.7270599	3.7609071	217147_s_at	T cell receptor associated transmembrane adaptor 1	TRAT1
+HY	< 1e-07	2.6146788	0.7374484	3.5455753	235228_at	coiled-coil domain containing 85A	CCDC85A
+HY	< 1e-07	2.6134784	0.7375557	3.5434318	213425_at	"wingless-type MMTV integration site family, member 5A"	WNT5A
+HY	0.0000954	2.5963952	0.73909	3.5129623	203698_s_at	frizzled-related protein	FRZB
+HY	< 1e-07	2.5546182	0.7428988	3.4387165	233555_s_at	sulfatase 2	SULF2
+HY	0.0000025	2.5495244	0.7433688	3.42969	242625_at	radical S-adenosyl methionine domain containing 2	RSAD2
+HY	0.0001394	2.5442365	0.743858	3.4203256	203697_at	frizzled-related protein	FRZB
+HY	0.0000605	2.523171	0.7458203	3.3830818	204602_at	dickkopf homolog 1 (Xenopus laevis)	DKK1
+HY	< 1e-07	2.5165273	0.7464436	3.3713562	209737_at	"membrane associated guanylate kinase, WW and PDZ domain containing 2"	MAGI2
+HY	0.0000068	2.4891251	0.7490378	3.3230968	205923_at	reelin	RELN
+HY	0.0000025	2.4769914	0.7501985	3.3017814	229450_at	interferon-induced protein with tetratricopeptide repeats 3	IFIT3
+HY	0.0000068	2.4259887	0.7551607	3.2125464	206978_at	chemokine (C-C motif) receptor 2 /// chemokine (C-C motif) receptor 2-like	CCR2 /// FLJ78302
+HY	< 1e-07	2.3585484	0.7619372	3.0954632	230425_at	EPH receptor B1	EPHB1
+HY	< 1e-07	2.3556183	0.7622373	3.0904001	224763_at	Ribosomal protein L37	RPL37
+HY	< 1e-07	2.351614	0.7626484	3.083484	213110_s_at	"collagen, type IV, alpha 5 (Alport syndrome)"	COL4A5
+HY	< 1e-07	2.3097718	0.7669993	3.0114391	213992_at	"collagen, type IV, alpha 6"	COL4A6
+HY	0.0006764	2.2697017	0.7712644	2.9428321	211644_x_at	immunoglobulin kappa constant /// immunoglobulin kappa variable 3D-15 /// immunoglobulin kappa variable 3D-11 /// immunoglobulin kappa variable 3-20 /// immunoglobulin kappa locus	IGK@ /// IGKC /// IGKV3-20 /// IGKV3D-11 /// IGKV3D-15
+HY	< 1e-07	2.2503593	0.7733589	2.9098511	228617_at	XIAP associated factor 1	XAF1
+HY	0.0000196	2.2425118	0.7742155	2.8964958	204430_s_at	"solute carrier family 2 (facilitated glucose/fructose transporter), member 5"	SLC2A5
+HY	< 1e-07	2.2193495	0.7767668	2.8571633	202086_at	"myxovirus (influenza virus) resistance 1, interferon-inducible protein p78 (mouse)"	MX1
+HY	< 1e-07	2.2169667	0.7770312	2.8531245	235474_at		
+HY	< 1e-07	2.1868176	0.7804099	2.8021397	213005_s_at	KN motif and ankyrin repeat domains 1	KANK1
+HY	< 1e-07	2.1827183	0.780874	2.7952247	226733_at	"6-phosphofructo-2-kinase/fructose-2,6-biphosphatase 2"	PFKFB2
+HY	0.0000025	2.1529086	0.784284	2.7450624	204115_at	"guanine nucleotide binding protein (G protein), gamma 11"	GNG11
+HY	0.0000025	2.1354943	0.786305	2.7158601	204794_at	dual specificity phosphatase 2	DUSP2
+HY	0.0001394	2.126118	0.7874021	2.700168	202411_at	"interferon, alpha-inducible protein 27"	IFI27
+HY	0.0022891	2.1070081	0.7896581	2.6682537	214070_s_at	"ATPase, class V, type 10B"	ATP10B
+HY	0.0000068	2.0977623	0.7907593	2.6528457	202431_s_at	v-myc myelocytomatosis viral oncogene homolog (avian)	MYC
+HY	0.0001268	2.0182991	0.8004947	2.5213146	207480_s_at	Meis homeobox 2	MEIS2
+HY	0.003862	2.0115297	0.8013474	2.5101843	208712_at	cyclin D1	CCND1
+HY	< 1e-07	1.9921817	0.8038054	2.4784378	222365_at	Transcribed locus	
+HY	0.0001268	1.9915039	0.803892	2.4773275	238029_s_at	"solute carrier family 16, member 14 (monocarboxylic acid transporter 14)"	SLC16A14
+HY	0.0000167	1.9749926	0.8060156	2.4503155	238605_at	nucleolar protein 4	NOL4
+HY	0.0000167	1.9742624	0.8061101	2.4491226	213737_x_at	"golgi autoantigen, golgin subfamily a, 9 pseudogene"	GOLGA9P
+HY	0.0000292	1.9703597	0.8066157	2.4427491	219073_s_at	oxysterol binding protein-like 10	OSBPL10
+HY	0.000341	1.9587031	0.8081337	2.4237366	1569454_a_at	hypothetical protein LOC283352	LOC283352
+PRL3	0.0401415	17.7417336	0.9201432	19.2814919	200953_s_at	cyclin D2	CCND2
+PRL3	0.0079625	14.4896027	0.9255509	15.6551125	206574_s_at	"protein tyrosine phosphatase type IVA, member 3 /// similar to protein tyrosine phosphatase type IVA, member 3"	LOC100131062 /// PTP4A3
+PRL3	0.0147225	14.0022005	0.9264678	15.1135313	209695_at	"protein tyrosine phosphatase type IVA, member 3 /// similar to protein tyrosine phosphatase type IVA, member 3"	LOC100131062 /// PTP4A3
+PRL3	< 1e-07	9.1313678	0.9380007	9.7349268	204469_at	"protein tyrosine phosphatase, receptor-type, Z polypeptide 1"	PTPRZ1
+PRL3	< 1e-07	5.6432704	0.9511555	5.9330682	227697_at	suppressor of cytokine signaling 3	SOCS3
+PRL3	0.0257985	5.6056028	0.9513398	5.8923243	217865_at	ring finger protein 130	RNF130
+PRL3	0.018291	4.2215237	0.9591789	4.401185	209183_s_at	chromosome 10 open reading frame 10	C10orf10
+PRL3	0.0009896	3.9471646	0.961046	4.1071548	218788_s_at	SET and MYND domain containing 3	SMYD3
+PRL3	0.027395	3.6803418	0.9629945	3.8217681	228051_at	KIAA1244	KIAA1244
+PRL3	0.0257985	3.5582122	0.9639355	3.6913387	219195_at	"peroxisome proliferator-activated receptor gamma, coactivator 1 alpha"	PPARGC1A
+PRL3	0.0000682	3.1020697	0.96777	3.2053791	213155_at	WSC domain containing 1	WSCD1
+PRL3	0.0217991	3.0240382	0.9684837	3.122446	213924_at	Metallophosphoesterase 1	MPPE1
+PRL3	0.0025389	2.3124126	0.9760327	2.369196	241762_at	F-box protein 32	FBXO32
+PRL3	0.018291	2.2323109	0.9770289	2.2847951	213693_s_at	"mucin 1, cell surface associated"	MUC1
+PRL3	0.0003185	2.0557214	0.9793618	2.0990418	1561937_x_at	Immunoglobulin heavy constant mu	IGHG1
+PRL3	0.000663	2.0455104	0.9795029	2.0883148	230102_at	Ets variant gene 5 (ets-related molecule)	ETV5
+PRL3	0.0045417	1.6609623	0.9854238	1.685531	233263_at	"CDNA FLJ12236 fis, clone MAMMA1001244"	
+PRL3	< 1e-07	1.6080085	0.9863482	1.6302646	241749_at	muscle-restricted coiled-coil protein	MURC
+PR	< 1e-07	12.7305192	0.8823955	14.4272253	232231_at	runt-related transcription factor 2	RUNX2
+PR	< 1e-07	6.9484585	0.9090665	7.6435096	210432_s_at	"sodium channel, voltage-gated, type III, alpha subunit"	SCN3A
+PR	< 1e-07	6.5748983	0.9115405	7.2129528	206640_x_at		Multiple Gene Symbols
+PR	0.0000058	6.4212754	0.912601	7.0362356	203213_at	"cell division cycle 2, G1 to S and G2 to M"	CDC2
+PR	< 1e-07	6.2159658	0.9140606	6.8003869	206102_at	GINS complex subunit 1 (Psf1 homolog)	GINS1
+PR	< 1e-07	6.1838597	0.9142934	6.7635396	208235_x_at	G antigen 7 /// G antigen 12I /// G antigen 12G /// G antigen 12J /// G antigen 12F	GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE7
+PR	< 1e-07	6.1623771	0.9144499	6.7388897	201292_at	topoisomerase (DNA) II alpha 170kDa	TOP2A
+PR	< 1e-07	5.9527084	0.916008	6.498533	207739_s_at		Multiple Gene Symbols
+PR	0.0129174	5.8605997	0.9167108	6.3930736	214070_s_at	"ATPase, class V, type 10B"	ATP10B
+PR	< 1e-07	5.8468777	0.9168165	6.3773697	201291_s_at	topoisomerase (DNA) II alpha 170kDa	TOP2A
+PR	0.0026989	5.7650172	0.9174525	6.2837231	209942_x_at	"melanoma antigen family A, 3"	MAGEA3
+PR	0.0000058	5.2914968	0.9213278	5.7433379	218585_s_at	denticleless homolog (Drosophila)	DTL
+PR	< 1e-07	5.2905196	0.9213362	5.742225	203755_at	BUB1 budding uninhibited by benzimidazoles 1 homolog beta (yeast)	BUB1B
+PR	< 1e-07	5.2307251	0.9218513	5.6741525	228729_at	cyclin B1	CCNB1
+PR	< 1e-07	5.167109	0.9224063	5.6017712	204444_at	kinesin family member 11	KIF11
+PR	0.0012459	5.0171682	0.9237431	5.4313458	238029_s_at	"solute carrier family 16, member 14 (monocarboxylic acid transporter 14)"	SLC16A14
+PR	0.0127965	4.9930695	0.9239619	5.4039778	235278_at	MACRO domain containing 2	MACROD2
+PR	< 1e-07	4.7248849	0.926474	5.0998571	224823_at	myosin light chain kinase	MYLK
+PR	0.006207	4.6491901	0.9272101	5.0141709	214612_x_at	"melanoma antigen family A, 6"	MAGEA6
+PR	0.0011972	4.6242614	0.9274553	4.9859667	201890_at	ribonucleotide reductase M2 polypeptide	RRM2
+PR	< 1e-07	4.4700558	0.9290036	4.8116668	225834_at	"gastric cancer up-regulated-2 /// family with sequence similarity 72, member B /// family with sequence similarity 72, member D /// family with sequence similarity 72, member A"	FAM72A /// FAM72B /// FAM72D /// GCUD2
+PR	< 1e-07	4.4496908	0.9292123	4.7886699	208079_s_at	aurora kinase A	AURKA
+PR	0.0006199	4.4259396	0.9294568	4.7618559	203999_at	synaptotagmin I	SYT1
+PR	0.0004989	4.370961	0.9300284	4.6998144	207165_at	hyaluronan-mediated motility receptor (RHAMM)	HMMR
+PR	0.000081	4.2317502	0.9315101	4.5428927	228273_at	Transcribed locus	
+PR	< 1e-07	4.1383198	0.9325334	4.4377176	219148_at	PDZ binding kinase	PBK
+PR	0.0006757	4.0496315	0.9335275	4.3379885	204836_at	glycine dehydrogenase (decarboxylating)	GLDC
+PR	< 1e-07	3.9102602	0.9351368	4.1814848	222848_at	centromere protein K	CENPK
+PR	< 1e-07	3.8641531	0.9356824	4.1297698	242344_at	"gamma-aminobutyric acid (GABA) A receptor, beta 2"	GABRB2
+PR	< 1e-07	3.862163	0.9357061	4.1275384	204962_s_at	centromere protein A	CENPA
+PR	0.0019661	3.778144	0.9367188	4.0333811	204159_at	"cyclin-dependent kinase inhibitor 2C (p18, inhibits CDK4)"	CDKN2C
+PR	0.0000157	3.6938121	0.9377593	3.9389766	242881_x_at	Clone HLS_IMAGE_626842 mRNA sequence	
+PR	0.0000869	3.635358	0.9384953	3.8736027	202095_s_at	baculoviral IAP repeat-containing 5 (survivin)	BIRC5
+PR	0.0004272	3.5452414	0.9396546	3.7729199	227212_s_at	PHD finger protein 19	PHF19
+PR	0.0004762	3.4340625	0.9411282	3.6488786	225904_at	chromosome 1 open reading frame 96	C1orf96
+PR	0.0086673	3.3665324	0.9420479	3.573632	201664_at	structural maintenance of chromosomes 4	SMC4
+PR	0.0001385	3.2903185	0.9431094	3.4887984	208955_at	deoxyuridine triphosphatase	DUT
+PR	0.0096258	3.2134252	0.9442068	3.4033065	217966_s_at	"family with sequence similarity 129, member A"	FAM129A
+PR	< 1e-07	3.2042447	0.9443397	3.393106	235048_at	KIAA0888 protein	KIAA0888
+PR	0.0046178	3.1524693	0.9450966	3.3356055	202503_s_at	KIAA0101	KIAA0101
+PR	< 1e-07	3.0358293	0.9468506	3.2062391	208155_x_at	G antigen 1 /// G antigen 4 /// G antigen 5 /// G antigen 6 /// G antigen 7 /// G antigen 12I /// G antigen 12G /// G antigen 12J /// G antigen 12F	GAGE1 /// GAGE12F /// GAGE12G /// GAGE12I /// GAGE12J /// GAGE4 /// GAGE5 /// GAGE6 /// GAGE7
+PR	0.0035173	3.0127465	0.9472061	3.1806665	203302_at	deoxycytidine kinase	DCK
+PR	0.000081	2.9898756	0.9475611	3.155338	204641_at	NIMA (never in mitosis gene a)-related kinase 2	NEK2
+PR	< 1e-07	2.9769859	0.9477625	3.1410676	207086_x_at		Multiple Gene Symbols
+PR	0.0000111	2.9628944	0.9479836	3.12547	205339_at	SCL/TAL1 interrupting locus	STIL
+PR	< 1e-07	2.9585319	0.9480523	3.1206419	222740_at	"ATPase family, AAA domain containing 2"	ATAD2
+PR	< 1e-07	2.9357499	0.9484128	3.0954346	209709_s_at	hyaluronan-mediated motility receptor (RHAMM)	HMMR
+PR	0.0076895	2.9124171	0.9487851	3.0696277	226651_at	homer homolog 1 (Drosophila)	HOMER1
+PR	0.0020616	2.8628754	0.949586	3.0148669	222077_s_at	Rac GTPase activating protein 1	RACGAP1
+PR	0.0108184	2.853924	0.9497323	3.0049774	212533_at	WEE1 homolog (S. pombe)	WEE1
+MS	< 1e-07	91.0874745	0.5952459	153.0249603	204379_s_at	"fibroblast growth factor receptor 3 (achondroplasia, thanatophoric dwarfism)"	FGFR3
+MS	< 1e-07	30.8275208	0.6742144	45.7236193	222777_s_at	Wolf-Hirschhorn syndrome candidate 1	WHSC1
+MS	< 1e-07	24.6137058	0.6918929	35.5744443	200953_s_at	cyclin D2	CCND2
+MS	< 1e-07	16.990403	0.722018	23.5318283	217901_at	Desmoglein 2	DSG2
+MS	< 1e-07	16.2544612	0.7257036	22.398211	201387_s_at	ubiquitin carboxyl-terminal esterase L1 (ubiquitin thiolesterase)	UCHL1
+MS	< 1e-07	15.636883	0.7289429	21.4514503	212190_at	"serpin peptidase inhibitor, clade E (nexin, plasminogen activator inhibitor type 1), member 2"	SERPINE2
+MS	< 1e-07	14.992185	0.7324804	20.4676937	222778_s_at	Wolf-Hirschhorn syndrome candidate 1	WHSC1
+MS	< 1e-07	13.2451076	0.7429903	17.826756	217963_s_at	nerve growth factor receptor (TNFRSF16) associated protein 1	NGFRAP1
+MS	< 1e-07	12.3723007	0.7488369	16.5220239	209053_s_at	Wolf-Hirschhorn syndrome candidate 1	WHSC1
+MS	< 1e-07	12.2142485	0.7499447	16.2868649	212771_at	chromosome 10 open reading frame 38	C10orf38
+MS	< 1e-07	10.8417073	0.7602944	14.2598806	200951_s_at	cyclin D2	CCND2
+MS	< 1e-07	10.2224995	0.765453	13.3548367	221841_s_at	Kruppel-like factor 4 (gut)	KLF4
+MS	< 1e-07	9.9576773	0.7677666	12.9696672	204563_at	selectin L (lymphocyte adhesion molecule 1)	SELL
+MS	< 1e-07	9.9078025	0.76821	12.8972577	209054_s_at	Wolf-Hirschhorn syndrome candidate 1	WHSC1
+MS	< 1e-07	8.9417648	0.7773255	11.5032439	205830_at	calmegin	CLGN
+MS	< 1e-07	7.6126487	0.7918424	9.6138432	209695_at	"protein tyrosine phosphatase type IVA, member 3 /// similar to protein tyrosine phosphatase type IVA, member 3"	LOC100131062 /// PTP4A3
+MS	< 1e-07	7.5868329	0.7921517	9.5774999	206574_s_at	"protein tyrosine phosphatase type IVA, member 3 /// similar to protein tyrosine phosphatase type IVA, member 3"	LOC100131062 /// PTP4A3
+MS	< 1e-07	7.3007674	0.7956603	9.1757347	200602_at	"amyloid beta (A4) precursor protein (peptidase nexin-II, Alzheimer disease)"	APP
+MS	< 1e-07	6.7625067	0.8026978	8.4247231	201666_at	TIMP metallopeptidase inhibitor 1	TIMP1
+MS	< 1e-07	6.6296595	0.8045311	8.240402	209309_at	"alpha-2-glycoprotein 1, zinc-binding"	AZGP1
+MS	< 1e-07	6.5978373	0.8049763	8.1963124	204517_at	peptidylprolyl isomerase C (cyclophilin C)	PPIC
+MS	0.000005	6.0063779	0.8137165	7.3814137	225681_at	collagen triple helix repeat containing 1	CTHRC1
+MS	< 1e-07	5.8165524	0.8167267	7.1217852	225710_at	"guanine nucleotide binding protein (G protein), beta polypeptide 4"	GNB4
+MS	< 1e-07	5.7844719	0.8172463	7.0780036	201163_s_at	insulin-like growth factor binding protein 7	IGFBP7
+MS	< 1e-07	5.1790156	0.827702	6.2571016	202620_s_at	"procollagen-lysine, 2-oxoglutarate 5-dioxygenase 2"	PLOD2
+MS	< 1e-07	5.1291309	0.8286237	6.1899402	201360_at	cystatin C	CST3
+MS	< 1e-07	5.0173442	0.8307258	6.0397116	221261_x_at	"melanoma antigen family D, 4B /// melanoma antigen family D, 4"	MAGED4 /// MAGED4B
+MS	0.0000505	4.668134	0.8376453	5.5729242	204777_s_at	"mal, T-cell differentiation protein"	MAL
+MS	< 1e-07	4.6149968	0.8387487	5.5022401	217867_x_at	beta-site APP-cleaving enzyme 2	BACE2
+MS	< 1e-07	4.4949231	0.841295	5.342862	209656_s_at	transmembrane protein 47	TMEM47
+MS	< 1e-07	4.4935322	0.841325	5.3410185	205120_s_at	"sarcoglycan, beta (43kDa dystrophin-associated glycoprotein)"	SGCB
+MS	< 1e-07	4.4243187	0.8428279	5.2493738	223253_at	ependymin related protein 1 (zebrafish)	EPDR1
+MS	0.0000418	4.3400288	0.8446941	5.1379888	225673_at	myeloid-associated differentiation marker	MYADM
+MS	< 1e-07	4.3327382	0.8448574	5.1283662	223125_s_at	chromosome 1 open reading frame 21	C1orf21
+MS	< 1e-07	4.3156385	0.8452416	5.1058044	205352_at	"serpin peptidase inhibitor, clade I (neuroserpin), member 1"	SERPINI1
+MS	0.0001309	4.2685593	0.8463084	5.0437398	221911_at	ets variant gene 1	ETV1
+MS	0.0000115	4.2651543	0.846386	5.0392542	201029_s_at	CD99 molecule	CD99
+MS	0.0000285	4.221877	0.8473791	4.9822764	203186_s_at	S100 calcium binding protein A4	S100A4
+MS	0.0000458	4.2077465	0.8477058	4.9636871	202242_at	tetraspanin 7	TSPAN7
+MS	< 1e-07	3.9743988	0.8532852	4.6577612	220532_s_at	transmembrane protein 176B	TMEM176B
+MS	< 1e-07	3.827717	0.8569827	4.4665042	205141_at	"angiogenin, ribonuclease, RNase A family, 5"	ANG
+MS	< 1e-07	3.8099953	0.8574401	4.4434534	213194_at	"roundabout, axon guidance receptor, homolog 1 (Drosophila)"	ROBO1
+MS	< 1e-07	3.7246163	0.8596775	4.3325738	214953_s_at	"amyloid beta (A4) precursor protein (peptidase nexin-II, Alzheimer disease)"	APP
+MS	< 1e-07	3.7184539	0.8598412	4.324582	218345_at	transmembrane protein 176A	TMEM176A
+MS	0.0000026	3.7101499	0.8600623	4.3138154	221297_at	"G protein-coupled receptor, family C, group 5, member D"	GPRC5D
+MS	0.0001428	3.6512574	0.8616461	4.2375373	217967_s_at	"family with sequence similarity 129, member A"	FAM129A
+MS	0.0000932	3.6158811	0.8626112	4.1917855	235400_at	Fc receptor-like A	FCRLA
+MS	< 1e-07	3.6096807	0.8627815	4.1837718	204518_s_at	peptidylprolyl isomerase C (cyclophilin C)	PPIC
+MS	0.0000072	3.583168	0.8635131	4.1495235	203408_s_at	SATB homeobox 1	SATB1
+MS	< 1e-07	3.5171826	0.8653606	4.0644128	205413_at	metallophosphoesterase domain containing 2	MPPED2
+MF	< 1e-07	32.4179625	0.8226904	39.4048138	205898_at	chemokine (C-X3-C motif) receptor 1	CX3CR1
+MF	< 1e-07	27.1565039	0.8309055	32.6830235	200953_s_at	cyclin D2	CCND2
+MF	< 1e-07	25.9709431	0.8329891	31.178012	204589_at	"NUAK family, SNF1-like kinase, 1"	NUAK1
+MF	< 1e-07	20.1071598	0.845035	23.7944686	212724_at	Rho family GTPase 3	RND3
+MF	< 1e-07	16.7306656	0.8537958	19.595628	200951_s_at	cyclin D2	CCND2
+MF	< 1e-07	12.8104867	0.8666812	14.7810837	221698_s_at	"C-type lectin domain family 7, member A"	CLEC7A
+MF	< 1e-07	12.5665386	0.8676166	14.4839773	205718_at	"integrin, beta 7"	ITGB7
+MF	< 1e-07	12.4488454	0.8680747	14.340753	200762_at	dihydropyrimidinase-like 2	DPYSL2
+MF	< 1e-07	11.4515132	0.8721514	13.1301903	33323_r_at	stratifin	SFN
+MF	< 1e-07	10.1698317	0.8779788	11.583231	211986_at	AHNAK nucleoprotein	AHNAK
+MF	< 1e-07	9.9069384	0.8792699	11.2672324	206167_s_at	Rho GTPase activating protein 6	ARHGAP6
+MF	< 1e-07	9.6881313	0.8803724	11.0045836	221648_s_at	NA	NA
+MF	< 1e-07	9.371836	0.8820134	10.625503	1554406_a_at	"C-type lectin domain family 7, member A"	CLEC7A
+MF	< 1e-07	9.1888678	0.8829896	10.4065413	200965_s_at	actin binding LIM protein 1	ABLIM1
+MF	< 1e-07	8.9573851	0.8842545	10.129872	204237_at	"GULP, engulfment adaptor PTB domain containing 1"	GULP1
+MF	< 1e-07	8.788301	0.8852005	9.9280347	205286_at	transcription factor AP-2 gamma (activating enhancer binding protein 2 gamma)	TFAP2C
+MF	< 1e-07	8.4701264	0.8870338	9.5488203	33322_i_at	stratifin	SFN
+MF	< 1e-07	7.8577136	0.8907767	8.8211931	213348_at	"cyclin-dependent kinase inhibitor 1C (p57, Kip2)"	CDKN1C
+MF	< 1e-07	7.7709107	0.8913321	8.7183117	209170_s_at	glycoprotein M6B	GPM6B
+MF	< 1e-07	7.5429928	0.892822	8.4484846	230740_at	NA	NA
+MF	< 1e-07	7.4636152	0.8933521	8.354618	218935_at	EH-domain containing 3	EHD3
+MF	< 1e-07	7.2325655	0.8949296	8.0817145	203304_at	BMP and activin membrane-bound inhibitor homolog (Xenopus laevis)	BAMBI
+MF	< 1e-07	6.7542879	0.8983714	7.5183689	203761_at	Src-like-adaptor	SLA
+MF	< 1e-07	6.4557749	0.9006527	7.1678851	226545_at	CD109 molecule	CD109
+MF	< 1e-07	6.3796516	0.9012523	7.0786523	204235_s_at	"GULP, engulfment adaptor PTB domain containing 1"	GULP1
+MF	< 1e-07	6.1162147	0.9033872	6.770314	219010_at	chromosome 1 open reading frame 106	C1orf106
+MF	3.70E-06	6.041664	0.9040089	6.6831905	203037_s_at	metastasis suppressor 1	MTSS1
+MF	0.000207	5.7861966	0.9062029	6.3851004	229437_at	microRNA host gene 2 (non-protein coding)	MIRHG2
+MF	1.40E-06	5.6786417	0.9071574	6.2598196	226875_at	dedicator of cytokinesis 11	DOCK11
+MF	1.40E-06	5.6126822	0.9077522	6.1830551	229391_s_at	"family with sequence similarity 26, member F"	FAM26F
+MF	< 1e-07	5.4784081	0.9089863	6.0269423	231259_s_at	cyclin D2	CCND2
+MF	1.09E-05	5.4197321	0.9095357	5.9587901	34210_at	CD52 molecule	CD52
+MF	1.24E-05	5.3267016	0.9104196	5.8508203	221059_s_at	carbohydrate (N-acetylglucosamine 6-O) sulfotransferase 6	CHST6
+MF	< 1e-07	5.3011289	0.9106655	5.8211594	218501_at	Rho guanine nucleotide exchange factor (GEF) 3	ARHGEF3
+MF	1.40E-06	4.8550385	0.9151678	5.30508	201125_s_at	"integrin, beta 5"	ITGB5
+MF	3.09E-05	4.8252006	0.9154844	5.270653	226068_at	spleen tyrosine kinase	SYK
+MF	0.000246	4.7462252	0.9163325	5.1795886	205081_at	cysteine-rich protein 1 (intestinal)	CRIP1
+MF	3.70E-06	4.6697749	0.9171677	5.091517	227792_at	"inositol 1,4,5-triphosphate receptor interacting protein-like 2"	ITPRIPL2
+MF	7.00E-04	4.4617814	0.9195153	4.852319	202207_at	ADP-ribosylation factor-like 4C	ARL4C
+MF	0.000688	4.4160869	0.9200465	4.7998521	226961_at	proline rich 15	PRR15
+MF	0.001045	4.3344696	0.9210099	4.7062137	224833_at	v-ets erythroblastosis virus E26 oncogene homolog 1 (avian)	ETS1
+MF	< 1e-07	4.1758167	0.9229388	4.5244783	221122_at	HRAS-like suppressor 2	HRASLS2
+MF	2.70E-06	4.0059912	0.9250913	4.330374	205141_at	"angiogenin, ribonuclease, RNase A family, 5"	ANG
+MF	< 1e-07	3.9053112	0.9264133	4.215517	204790_at	SMAD family member 7	SMAD7
+MF	< 1e-07	3.8309718	0.9274128	4.130816	204070_at	retinoic acid receptor responder (tazarotene induced) 3	RARRES3
+MF	8.89E-05	3.7567963	0.9284307	4.0463938	225188_at	Ras association (RalGDS/AF-6) and pleckstrin homology domains 1	RAPH1
+MF	1.64E-05	3.6966543	0.9292718	3.9780121	219155_at	"phosphatidylinositol transfer protein, cytoplasmic 1"	PITPNC1
+MF	0.001046	3.6911341	0.9293497	3.9717388	204328_at	transmembrane channel-like 6	TMC6
+MF	0.003549	3.5348771	0.9316078	3.7943834	209737_at	"membrane associated guanylate kinase, WW and PDZ domain containing 2"	MAGI2
+MF	1.40E-06	3.3897193	0.9338021	3.630019	225328_at	NA	NA
+LB	< 1e-07	11.9626893	0.8850994	13.5156457	205590_at	RAS guanyl releasing protein 1 (calcium and DAG-regulated)	RASGRP1
+LB	< 1e-07	10.2437858	0.8918775	11.4856416	227949_at	phosphatase and actin regulator 3	PHACTR3
+LB	< 1e-07	9.2886161	0.8961812	10.3646625	211986_at	AHNAK nucleoprotein	AHNAK
+LB	0.0000834	7.2141518	0.9073904	7.9504388	202207_at	ADP-ribosylation factor-like 4C	ARL4C
+LB	0.002091	6.7039539	0.9106695	7.3615665	212724_at	Rho family GTPase 3	RND3
+LB	< 1e-07	6.4016507	0.9127383	7.0136757	202206_at	ADP-ribosylation factor-like 4C	ARL4C
+LB	0.0000386	5.7839368	0.9173046	6.3053608	226875_at	dedicator of cytokinesis 11	DOCK11
+LB	< 1e-07	5.545191	0.9192083	6.0325727	226560_at	NA	NA
+LB	0.003144	4.6615995	0.9270886	5.0282137	205159_at	"colony stimulating factor 2 receptor, beta, low-affinity (granulocyte-macrophage)"	CSF2RB
+LB	0.011208	4.5292083	0.9284032	4.878493	210538_s_at	baculoviral IAP repeat-containing 3	BIRC3
+LB	0.004811	4.4464254	0.9292458	4.7849831	226961_at	proline rich 15	PRR15
+LB	0.000462	4.3082399	0.9306897	4.6290829	230499_at	NA	NA
+LB	0.002075	4.0360969	0.9336812	4.3227784	226333_at	interleukin 6 receptor	IL6R
+LB	0.007207	3.8363407	0.9360149	4.0985893	44783_s_at	hairy/enhancer-of-split related with YRPW motif 1	HEY1
+LB	0.000321	3.5586017	0.9394808	3.7878388	221122_at	HRAS-like suppressor 2	HRASLS2
+LB	0.001088	3.4386437	0.9410665	3.653986	230740_at	NA	NA
+LB	0.0000298	3.4271879	0.9412209	3.6412152	206595_at	cystatin E/M	CST6
+LB	0.001977	3.2705056	0.9433896	3.4667604	219155_at	"phosphatidylinositol transfer protein, cytoplasmic 1"	PITPNC1
+LB	0.003144	3.1804205	0.9446864	3.3666417	203767_s_at	"steroid sulfatase (microsomal), isozyme S"	STS
+LB	0.004811	3.1234749	0.9455261	3.3034253	228487_s_at	ras responsive element binding protein 1	RREB1
+LB	0.004811	3.0631963	0.9464328	3.2365704	211946_s_at	BAT2 domain containing 1	BAT2D1
+LB	0.004127	2.7427205	0.9515905	2.8822488	218935_at	EH-domain containing 3	EHD3
+LB	0.006133	2.7173033	0.9520263	2.8542313	1568964_x_at	sialophorin	SPN
+LB	0.003571	2.5545398	0.9549227	2.6751273	225328_at	NA	NA
+LB	0.008949	2.394175	0.9579724	2.4992108	50221_at	transcription factor EB	TFEB
