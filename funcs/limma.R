@@ -1,7 +1,7 @@
 suppressMessages(library("edgeR"))
 suppressMessages(library("limma"))
 
-RunDiffExprAnalysisLimma <- function(counts.df, var.df, covariates.df=NULL, genes.df=NULL, use.sva=TRUE, n.sv=NULL, return_mod=FALSE) {
+RunDiffExprAnalysisLimma <- function(counts.df, var.df, covariates.df=NULL, genes.df=NULL, use.sva=FALSE, n.sv=NULL, return_mod=FALSE) {
     # Computes differential expression using a combination of SmartSVA and voom-limma
     #
     # Args:
@@ -67,7 +67,7 @@ RunDiffExprAnalysisLimma <- function(counts.df, var.df, covariates.df=NULL, gene
     cat(paste0("Differentially expressed genes at 0.05 FDR: ", sum(res[, 'adj.P.Val']<=0.05), "\n"))
     if (!is.null(genes.df)) {
         res[, 'gene_name'] <- genes.df[row.names(res), 'Description']
-        res <- res[, colnames(res)[c(8,1:7)]]
+        #res <- res[, colnames(res)[c(8,1:7)]]
     }
 
     if (use.sva) {

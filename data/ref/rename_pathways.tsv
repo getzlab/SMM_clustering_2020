@@ -1,0 +1,67 @@
+new_pathway_name	pathway	grouping
+Ribosome Biogenesis	KEGG_RIBOSOME	Cellular Pathways
+JAK STAT Signaling	KEGG_JAK_STAT_SIGNALING_PATHWAY	Cellular Pathways
+Cytosolic DNA Sensing	KEGG_CYTOSOLIC_DNA_SENSING_PATHWAY	Cellular Pathways
+TGF Beta Signaling - Kegg	KEGG_TGF_BETA_SIGNALING_PATHWAY	Cellular Pathways
+EMT	HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION	Cellular Pathways
+MTORC1 Signaling	HALLMARK_MTORC1_SIGNALING	Cellular Pathways
+E2F Targets	HALLMARK_E2F_TARGETS	Cellular Pathways
+IL2 STAT5 Signaling	HALLMARK_IL2_STAT5_SIGNALING	Cellular Pathways
+TNFA Signaling via NFkB	HALLMARK_TNFA_SIGNALING_VIA_NFKB	Cellular Pathways
+Unfolded Protein Response	HALLMARK_UNFOLDED_PROTEIN_RESPONSE	Cellular Pathways
+MYC Targets v2	HALLMARK_MYC_TARGETS_V2	Cellular Pathways
+PI3K -  AKT - MTOR Signaling	HALLMARK_PI3K_AKT_MTOR_SIGNALING	Cellular Pathways
+P53 Signaling	HALLMARK_P53_PATHWAY	Cellular Pathways
+Mitotic Spindle	HALLMARK_MITOTIC_SPINDLE	Cellular Pathways
+Glycolysis	HALLMARK_GLYCOLYSIS	Cellular Pathways
+WNT Beta Catenin Signaling	HALLMARK_WNT_BETA_CATENIN_SIGNALING	Cellular Pathways
+MYC Targets v1	HALLMARK_MYC_TARGETS_V1	Cellular Pathways
+IL6-JAK-STAT3 SIGNALING	HALLMARK_IL6_JAK_STAT3_SIGNALING	Cellular Pathways
+NOTCH Signaling	HALLMARK_NOTCH_SIGNALING	Cellular Pathways
+Complement Activation	HALLMARK_COMPLEMENT	Cellular Pathways
+DNA Repair	HALLMARK_DNA_REPAIR	Cellular Pathways
+Interferon Gamma Response	HALLMARK_INTERFERON_GAMMA_RESPONSE	Cellular Pathways
+No need to show this	HALLMARK_APICAL_SURFACE	Cellular Pathways
+Hypoxia Signaling	HALLMARK_HYPOXIA	Cellular Pathways
+Apoptosis	HALLMARK_APOPTOSIS	Cellular Pathways
+Inflammatory Response	HALLMARK_INFLAMMATORY_RESPONSE	Cellular Pathways
+No need to show this	HALLMARK_BILE_ACID_METABOLISM	Cellular Pathways
+No need to show this	HALLMARK_ADIPOGENESIS	Cellular Pathways
+Fatty Acid Metabolism	HALLMARK_FATTY_ACID_METABOLISM	Cellular Pathways
+Hedgeghog Signaling	HALLMARK_HEDGEHOG_SIGNALING	Cellular Pathways
+Protein Secretion	HALLMARK_PROTEIN_SECRETION	Cellular Pathways
+No need to show this	HALLMARK_PEROXISOME	Cellular Pathways
+TGF Beta Signaling - Hallmark	HALLMARK_TGF_BETA_SIGNALING	Cellular Pathways
+No need to show this	HALLMARK_REACTIVE_OXYGEN_SPECIES_PATHWAY	Cellular Pathways
+Interferon Alpha Response	HALLMARK_INTERFERON_ALPHA_RESPONSE	Cellular Pathways
+No need to show this	HALLMARK_CHOLESTEROL_HOMEOSTASIS	Cellular Pathways
+No need to show this	HALLMARK_ANDROGEN_RESPONSE	Cellular Pathways
+Oxidative Phosphorylation	HALLMARK_OXIDATIVE_PHOSPHORYLATION	Cellular Pathways
+Heme Metabolism	HALLMARK_HEME_METABOLISM	Cellular Pathways
+No need to show this	HALLMARK_PANCREAS_BETA_CELLS	Cellular Pathways
+XBP1 Targets	XBP1_target_secretory	Cellular Pathways
+Cell Cycle	Cell_cycle_Liu	Cellular Pathways
+MCL Proliferation Signature	MCL_proliferation_survival	Cellular Pathways
+T-cell (CD4, memory activated)	CD4_T_cell_memory_activated_Newman	Immune
+T-cell (CD8)	CD8_T_cell_Newman	Immune
+Macrophage (M1)	Macrophage_M1_Newman	Immune
+Macrophage (M2)	Macrophage_M2_Newman	Immune
+NK (activated)	NK_cell_activated_Newman	Immune
+Dendritic cell (activated)	Dendritic_cell_activated_Newman	Immune
+Resting NK	NK_cell_resting_Newman	Immune
+T-regulatory cell	Regulatory_T cell_Newman	Immune
+Gamma-Delta T-cell	Gamma_delta_T cell_Newman	Immune
+Monocyte	Monocyte_Newman	Immune
+T-cell (CD8 Effector)	CD8_T_effectorUp_memoryIm_NaiveDn	Immune
+B-Cell (Memory)	B_cell_memory_Newman	Immune
+Plasmacytoid Dendritic cell	Dendritic_cell_CD123pos_blood	Immune
+HP Myeloma Signature	MYELOMA_SIG_HP_UP	Myeloma
+PR Myeloma Signature	MYELOMA_SIG_PR_UP	Myeloma
+MS Myeloma Signature	MYELOMA_SIG_MS_UP	Myeloma
+MF Myeloma Signature	MYELOMA_SIG_MF_UP	Myeloma
+CD-1 Myeloma Signature	MYELOMA_SIG_CD-1_UP	Myeloma
+CTA Myeloma Signature	MYELOMA_SIG_CTA_UP	Myeloma
+CD-2 Myeloma Signature	MYELOMA_SIG_CD-2_UP	Myeloma
+PRL3 Myeloma Signature	MYELOMA_SIG_PRL3_UP	Myeloma
+LB Myeloma Signature	MYELOMA_SIG_LB_UP	Myeloma
+NFkB Myeloma Signature	MYELOMA_SIG_NFkB_UP	Myeloma

@@ -173,85 +173,32 @@ def downsample_analysis(
     return s_score,rss_score,evar_score,kl_score
 
 #------------------------------------------------------------------
+# RNA Helpers
+#------------------------------------------------------------------
+def tpm_loader(tpm, counts, samples=None, filter_thresh=True):
+    """
+    Bulk load dataset.
+    """
+    from qtl.norm import deseq2_size_factors
+
+    # Load data
+    tpm = pd.read_csv(tpm, sep='\t', skiprows=2, index_col=0)
+    counts = pd.read_csv(counts, sep='\t', skiprows=2, index_col=0)
+    gene_name = tpm.loc[:,['Description']]
+    tpm = tpm.iloc[:,1:]
+
+    if samples is not None:
+        tpm = tpm.loc[:,samples]
+
+    # Filter counts
+    if filter_thresh:
+        tpm = tpm[(np.sum(tpm >= 0.1, 1) > tpm.shape[1]*0.2) & (np.sum(counts.iloc[:,1:] >= 6, 1) > tpm.shape[1]*0.2)]
+
+    return tpm, np.log2(1+tpm / deseq2_size_factors(tpm)), counts, gene_name
+
+#------------------------------------------------------------------
 # From Francois
 #------------------------------------------------------------------
-def remove_covariates(df, C, center=False, fail_colinear=False):
-    """
-    Residualizes rows of M relative to columns of C
-    """
-
-    # transform input
-    if isinstance(df, pd.DataFrame) or isinstance(df, pd.Series):
-        M = df.values
-    else:
-        M = df
-
-    isvector = False
-    if isinstance(M, list) or (hasattr(M, 'shape') and len(M.shape)==1):
-        M = np.array(M).reshape(1,-1)
-        isvector = True
-
-    if isinstance(C, list) or (hasattr(C, 'shape') and len(C.shape)==1):
-        C = np.array(C).reshape(-1,1)
-
-    Q = orthogonalize_covariates(C, fail_colinear=fail_colinear)
-
-    # residualize M relative to C
-    M0 = (M.T - np.mean(M,axis=1)).T
-    if center:
-        M0 = M0 - np.dot(np.dot(M0, Q), Q.T)
-    else:
-        M0 = M - np.dot(np.dot(M0, Q), Q.T)  # retain original mean
-
-    if isvector:
-        M0 = M0[0]
-
-    if isinstance(df, pd.DataFrame):
-        M0 = pd.DataFrame(M0, index=df.index, columns=df.columns)
-    elif isinstance(df, pd.Series):
-        M0 = pd.Series(M0, index=df.index, name=df.name)
-
-    return M0
-
-def orthogonalize_covariates(C, fail_colinear=True):
-    """
-    C: covariates (columns)
-    """
-    # center and orthogonalize
-    Q,R = np.linalg.qr(C-np.mean(C,axis=0))
-
-    # check for colinearity
-    colinear_ix = np.abs(np.diag(R)) < np.finfo(np.float64).eps * C.shape[1]
-    if np.any(colinear_ix):
-        if fail_colinear:
-        # if np.min(np.abs(np.diag(R))) < np.finfo(np.float64).eps * C.shape[1]:
-            raise ValueError("Colinear or zero covariates detected")
-        else:  # drop colinear covariates
-            print('  * Colinear covariates detected. {} covariates dropped.'.format(np.sum(colinear_ix)))
-            Q = Q[:, ~colinear_ix]
-
-    return Q
-
-def normalize_counts(gct_df, C=None, mean_center=True):
-    from qtl.norm import deseq2_size_factors
-    gct_norm_df = gct_df / deseq2_size_factors(gct_df)
-    gct_norm_df = np.log10(1+gct_norm_df)
-
-    # threshold low expressed genes
-    mask = np.mean(gct_norm_df > 1, axis=1) > 0.1  # >=10 counts in >10% of samples
-    gct_norm_df = gct_norm_df[mask]
-
-    if C is not None:
-        gct_norm_df = remove_covariates(gct_norm_df, C, center=False)
-
-    if mean_center:
-        # gct_norm_std_df = center_normalize(gct_norm_df)
-        gct_norm_std_df = gct_norm_df - gct_norm_df.mean(axis=0)
-        gct_norm_std_df = gct_norm_std_df / np.sqrt(gct_norm_std_df.pow(2).sum(axis=0))
-        return gct_norm_std_df
-    else:
-        gct_norm_df
-
 def get_pcs(gct_df, normalize=True, C=None, n_components=5, return_genes=False):
     """
     Scale input GCT, threshold, normalize and calculate PCs
