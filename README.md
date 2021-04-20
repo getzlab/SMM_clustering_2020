@@ -13,3 +13,6 @@ Repo for analysis of SMM DNA + RNA data.
 `Fig2`
 * `1_process_rna.ipynb`: python notebook describing RNA processing & QC
 * `2_diffexp_pathways_rna.ipynb`: R notebook with differential expression, fGSEA, & other plots for Fig2 & related supplements
+
+`Fig3`
+* Run `00-fig-km.R`, `01-fig-traj.R`, then `02-fig-pairs.R`
