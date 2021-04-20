@@ -3,6 +3,7 @@
 Repo for analysis of SMM DNA + RNA data.
 
 `data` - see `./data/README.md`
+
 `funcs` - folder with python/R helper functions or scripts written
 
 `Fig1`
