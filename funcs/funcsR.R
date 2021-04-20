@@ -126,7 +126,7 @@ plotSig <- function(df, y, my_comparisons, x='consensus_nmf', w=8, h=4, label.y=
     ylim(ylim.min,ylim.max) +
     stat_compare_means(comparisons = my_comparisons, method="wilcox.test")+
     stat_compare_means(label.y = label.y, label.x=label.x)+
-    theme(legend.position="right")
+    theme(legend.position=label.pos)
 
 }
 
