@@ -12,10 +12,10 @@ Author: Shankara Anand (sanand@broadinstitute.org)
   * Pulled from [here](https://ashpublications.org/blood/article/116/14/2543/27550/Gene-expression-profiling-for-molecular)
   * (see `../../Fig2/1_process_rna.ipynb`)
 *  `./ref/zhan_*_sigs.txt`
-  * Pulled from [here](https://ashpublications.org/blood/article/108/6/2020/22665)
-  * (see `../../Fig2/1_process_rna.ipynb`)
+   * Pulled from [here](https://ashpublications.org/blood/article/108/6/2020/22665)
+   * (see `../../Fig2/1_process_rna.ipynb`)
 *  `./ref/SignatureDB_030920.txt`
-  * Pulled from [here](https://lymphochip.nih.gov/signaturedb/)
+   * Pulled from [here](https://lymphochip.nih.gov/signaturedb/)
 
 **Raw Data Dir** (`./raw`)
 * Binarized file final study list for DNA features
