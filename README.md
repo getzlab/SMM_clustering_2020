@@ -1,6 +1,13 @@
-# SMM_clustering_2020
+# SMM Clustering 2020
 
-Repo for analysis of SMM DNA + RNA data.
+Repo for Manuscript:
+
+**Genetic Subtypes of Smoldering Multiple Myeloma are associated with Distinct Pathogenic Phenotypes and Clinical Outcomes**
+
+Contact: Shankara Anand - sanand@broadinstitute.org
+
+---
+**Repo Structure**:
 
 `data` - see `./data/README.md`
 
