@@ -188,9 +188,10 @@ biallelic = [
 myc = ['MYC _aberrations_all', 'MYC_translocation']
 
 patient_metadata = [
-    'AGE',
+    #'AGE',
     'SEX',
-    'RACE'
+    'cohort'
+    #'RACE'
 ]
 
 clinical_metadata = [
@@ -209,14 +210,14 @@ clinical_metadata = [
     'LLC',
     'Light_chain_type',
     'M_spike',
-    'Management_protocol',
     'Other_IgH_translocations',
-    'Sequencing',
     'Total_protein',
     'serum_IgH_ level',
     # Irrelevant metadata
-    'SNV',
-    'SNV.1',
-    'Translocations',
-    'CNV'
+    #'Management_protocol',
+    #'Sequencing',
+    #'SNV',
+    #'SNV.1',
+    #'Translocations',
+    #'CNV'
 ]

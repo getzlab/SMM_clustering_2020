@@ -9,6 +9,7 @@ from tqdm import tqdm
 import sklearn
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
+from qtl.norm import deseq2_size_factors
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -42,7 +43,8 @@ def consensus_cluster(H_matrices: list):
     Consensus clustering of bnmf results.
     -----------------------
     Args:
-        * filepath: path to the output .5 file of ARD-NMF runs
+        * filepath: list of pd.DataFrame H-matrices
+
     Returns:
         * pd.DataFrame: consensus matrix from results
         * pd.Series: assignment probability for selected cluster
@@ -175,15 +177,15 @@ def downsample_analysis(
 #------------------------------------------------------------------
 # RNA Helpers
 #------------------------------------------------------------------
-def tpm_loader(tpm, counts, samples=None, filter_thresh=True):
+def tpm_loader(tpm, counts, skiprows=2, samples=None, filter_thresh=True):
     """
     Bulk load dataset.
     """
     from qtl.norm import deseq2_size_factors
 
     # Load data
-    tpm = pd.read_csv(tpm, sep='\t', skiprows=2, index_col=0)
-    counts = pd.read_csv(counts, sep='\t', skiprows=2, index_col=0)
+    tpm = pd.read_csv(tpm, sep='\t', skiprows=skiprows, index_col=0)
+    counts = pd.read_csv(counts, sep='\t', skiprows=skiprows, index_col=0)
     gene_name = tpm.loc[:,['Description']]
     tpm = tpm.iloc[:,1:]
 
@@ -196,9 +198,108 @@ def tpm_loader(tpm, counts, samples=None, filter_thresh=True):
 
     return tpm, np.log2(1+tpm / deseq2_size_factors(tpm)), counts, gene_name
 
+# ----------------------------------
+# Fisher Exact
+# ----------------------------------
+def build_counts_mat(df, cluster_id, cluster_label='consensus', description_label='grading'):
+	"""
+	Build counts matrix.
+	"""
+	df1 = pd.DataFrame(df[df[cluster_label] == cluster_id].groupby(description_label).size())
+	df2 = pd.DataFrame(df[df[cluster_label] != cluster_id].groupby(description_label).size())
+	full_df = pd.concat([df1,df2], 1)
+	full_df.columns = ['in','out']
+
+	full_df = full_df.fillna(0)
+	full_df = full_df.astype(int)
+
+	return full_df
+
+def build_2x2(df):
+	"""Build 2x2 matrix."""
+	df_out = df.sum(0) - df
+	d = {}
+
+	for i in df.index:
+		cluster_i_df = pd.DataFrame(df.loc[i]).T
+		cluster_o_df = pd.DataFrame(df_out.loc[i]).T
+
+		cluster_i_df.index = ["i_cluster"]
+		cluster_o_df.index = ["o_cluster"]
+
+		d[i] = pd.concat((cluster_i_df, cluster_o_df))
+	return d
+
+def run_fisher_exacts(table_dict):
+	"""
+	Run Fisher Exacts
+	"""
+	from scipy.stats import fisher_exact
+
+	indices = np.array(list(table_dict.keys()))
+	odds_r = np.zeros(indices.shape[0])
+	p_val = np.zeros(indices.shape[0])
+
+	for i,idx in enumerate(indices):
+		odds_r[i], p_val[i] = fisher_exact(table_dict[idx], alternative='greater')
+
+	return pd.DataFrame(
+		np.concatenate((odds_r[:,np.newaxis], p_val[:,np.newaxis]), axis=1),
+		index=indices,
+		columns=['odds_r','p_val']
+	)
+
+def compute_categorical_fisher_exact(
+	labs,
+	metadata_df,
+	description_id="grading",
+	label_id='consensus',
+	fdr_alpha=0.05,
+	fdr_method='fdr_bh'
+	):
+	"""
+	Compute fisher exact.
+	"""
+	from statsmodels.stats.multitest import multipletests
+
+	fe_df = list()
+
+	for lab in np.unique(labs[label_id]):
+		lab_pval_df = run_fisher_exacts(
+			build_2x2(
+				build_counts_mat(metadata_df, lab, cluster_label=label_id, description_label=description_id)
+			)
+		)
+		lab_pval_df['id'] = lab
+		fe_df.append(lab_pval_df)
+
+	fe_df = pd.concat(fe_df).sort_values('p_val')
+	_,fe_df['p_val_adj'],_,_ = multipletests(fe_df['p_val'], alpha=fdr_alpha, method=fdr_method)
+
+	return fe_df
+
 #------------------------------------------------------------------
 # From Francois
 #------------------------------------------------------------------
+def normalize_counts(gct_df, C=None, mean_center=True):
+    gct_norm_df = gct_df / deseq2_size_factors(gct_df)
+    gct_norm_df = np.log10(1+gct_norm_df)
+
+    # threshold low expressed genes
+    mask = np.mean(gct_norm_df > 1, axis=1) > 0.1  # >=10 counts in >10% of samples
+    gct_norm_df = gct_norm_df[mask]
+
+    if C is not None:
+        gct_norm_df = remove_covariates(gct_norm_df, C, center=False)
+
+    if mean_center:
+        # gct_norm_std_df = center_normalize(gct_norm_df)
+        gct_norm_std_df = gct_norm_df - gct_norm_df.mean(axis=0)
+        gct_norm_std_df = gct_norm_std_df / np.sqrt(gct_norm_std_df.pow(2).sum(axis=0))
+        return gct_norm_std_df
+    else:
+        gct_norm_df
+
 def get_pcs(gct_df, normalize=True, C=None, n_components=5, return_genes=False):
     """
     Scale input GCT, threshold, normalize and calculate PCs

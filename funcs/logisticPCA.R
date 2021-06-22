@@ -7,6 +7,8 @@ option_list <- list(
   make_option(c("-o", "--outdir"), type="character", help="Output directory")
 )
 
+set.seed(42)
+
 parser <- OptionParser(usage="%prog [options] file", option_list=option_list)
 args <- parse_args(parser)
 opt <- args$options
