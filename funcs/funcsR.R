@@ -107,7 +107,7 @@ plotTPM <- function(
     return(p)
 }
 
-plotSig <- function(df, y, my_comparisons, x='consensus_nmf', w=8, h=4, label.y=10, label.x=1, ylim.min=0, ylim.max=NA, label.pos="right"){
+plotSig <- function(df, y, my_comparisons, x='consensus_nmf', w=8, h=4, label.y=10, label.x=1, ylim.min=0, ylim.max=NA, label.pos="right", ylab='Mean logTPM+1'){
     options(repr.plot.width=w, repr.plot.height=h)
 
     ggboxplot(
@@ -118,7 +118,7 @@ plotSig <- function(df, y, my_comparisons, x='consensus_nmf', w=8, h=4, label.y=
         palette = "jco",
         add='jitter',
         title=y,
-        ylab='Mean logTPM+1',
+        ylab=ylab,
         xlab='',
         font.label = list(size = 6, color = "black"),
         label.pos=label.pos
