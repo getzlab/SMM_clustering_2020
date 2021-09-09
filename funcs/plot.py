@@ -125,6 +125,7 @@ def plot_dist_per_metric(X, k, sample_n, k_n, figsize=(8,6), ax=None, title=None
         ax=ax,
         linewidth=.25,
         alpha=0.25,
+        rasterized=True
     )
 
     sns.violinplot(
