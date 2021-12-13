@@ -23,3 +23,4 @@ Author: Shankara Anand (sanand@broadinstitute.org)
 
 **RNA Data Dir** (`./rna`)
 * Output files from RNA-SeQC (in progress, please contact sanand@broadinstitute.org)
+* Processing details may be found here: https://github.com/broadinstitute/gtex-pipeline
