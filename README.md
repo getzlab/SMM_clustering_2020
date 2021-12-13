@@ -4,7 +4,15 @@ Repo for Manuscript:
 
 **Genetic Subtypes of Smoldering Multiple Myeloma are associated with Distinct Pathogenic Phenotypes and Clinical Outcomes**
 
+[Link](https://www.biorxiv.org/content/10.1101/2021.12.10.471975v1) to pre-print.
+
 Contact: Shankara Anand - sanand@broadinstitute.org
+
+Table of DNA-based SMM subtypes
+
+_Note: we included in this table the names used in previous iterations and seen in the code base._
+
+![](./smm_subtypes_table.png)
 
 ---
 **Repo Structure**:
