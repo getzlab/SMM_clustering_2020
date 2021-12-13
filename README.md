@@ -8,6 +8,12 @@ Repo for Manuscript:
 
 Contact: Shankara Anand - sanand@broadinstitute.org
 
+Table of DNA-based SMM subtypes
+
+_Note: we included in this table the names used in previous iterations and seen in the code base._
+
+![](./smm_subtypes_table.png)
+
 ---
 **Repo Structure**:
 
