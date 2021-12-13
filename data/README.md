@@ -22,4 +22,4 @@ Author: Shankara Anand (sanand@broadinstitute.org)
 * Annotations/groupings may be found `../funcs/features.py`
 
 **RNA Data Dir** (`./rna`)
-* Output files from RNA-SeQC
+* Output files from RNA-SeQC (in progress, please contact sanand@broadinstitute.org)
