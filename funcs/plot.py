@@ -219,26 +219,26 @@ def plot_marker_heatmap(
     y1 = ax.get_position().y1
     buf = y1*0.01
 
-    sns.heatmap(sample_markers, ax=ax, cmap=cmap, rasterized=True, vmax=vmax, vmin=vmin, cbar=False)
-    v,c = np.unique(order_series, return_counts=True)
+    sns.heatmap(sample_markers, ax=ax, cmap=cmap, rasterized=False, vmax=vmax, vmin=vmin, cbar=False)
+    v,c = np.unique(order_series, return_counts=False)
 
     # plot horizontal lines
     _c = np.cumsum(c)
     _ci = np.roll(_c,2)
     _ci[0] = 0
     _ci[1] = 0
-    ax.hlines(hz_lines, _ci, _c, rasterized=True)
+    ax.hlines(hz_lines, _ci, _c, rasterized=False)
 
     # plot vertical lines
     _h = list(hz_lines)
     _h.append(ax.get_ylim()[0])
-    ax.vlines(np.cumsum(c)[:-1], _h[:-2], _h[2:], rasterized=True)
-    ax.vlines(np.cumsum(c)[:-1], *ax.get_ylim(), alpha=0.4, rasterized=True, linewidth=1)
+    ax.vlines(np.cumsum(c)[:-1], _h[:-2], _h[2:], rasterized=False)
+    ax.vlines(np.cumsum(c)[:-1], *ax.get_ylim(), alpha=0.4, rasterized=False, linewidth=1)
 
     # Set yticks
     ax.yaxis.tick_right()
     ax.set_yticks(np.arange(sample_markers.index.values.shape[0])+0.5)
-    ax.set_yticklabels(sample_markers.index.values, fontsize=7.5, rasterized=True, rotation=0, va="center")
+    ax.set_yticklabels(sample_markers.index.values, fontsize=10, rasterized=False, rotation=0, va="center")
 
     # --------------cluster annot-------------------
     clust_ax = fig.add_axes([x0, y1+buf, x1*.861, 2*buf])
@@ -420,7 +420,7 @@ def plot_consensus_matrix(
         square=True,
         cbar_ax=cbar_ax,
         cbar_kws = {'ticks':[cbar_bottom_lim, cbar_top_lim]},
-        rasterized=True,
+        rasterized=False,
         vmax=vmax,
         vmin=vmin,
         cmap=cmap
@@ -485,15 +485,15 @@ def plot_consensus_matrix(
         _ci = np.append(_ci, clusters.shape[0])
 
         for idx, hz in enumerate(hz_lines):
-            ax.hlines(hz, _c[idx], _ci[idx], rasterized=True)
-            ax.vlines(hz, _c[idx], _ci[idx], rasterized=True)
+            ax.hlines(hz, _c[idx], _ci[idx], rasterized=False)
+            ax.vlines(hz, _c[idx], _ci[idx], rasterized=False)
 
     # Add axes
     # Plots agglomerative clustering results
     if metas is None:
         lax = fig.add_axes([x0-3*buf, y0, 2*buf, y1-y0])
         mat, cmap = sa.pl.color_list_to_matrix_and_cmap(cluster_color_list)
-        sns.heatmap(mat.T, cmap=cmap, ax=lax, xticklabels=False, yticklabels=False, cbar=False, rasterized=True)
+        sns.heatmap(mat.T, cmap=cmap, ax=lax, xticklabels=False, yticklabels=False, cbar=False, rasterized=False)
 
         uniq, idx, num_vals = np.unique(clusters.T, return_index=True, return_counts=True)
         y_locs = idx + num_vals / 2
@@ -513,7 +513,7 @@ def plot_consensus_matrix(
         for _, spine in lax.spines.items():
             spine.set_visible(True)
 
-        lax.set_xlabel("Consensus", rotation=90)
+        lax.set_xlabel("Consensus", rotation=90, fontsize=16)
 
     else:
         for idx,meta in enumerate(metas):
@@ -522,7 +522,7 @@ def plot_consensus_matrix(
 
             if isinstance(meta, str) and meta=='aggr':
                 mat, cmap = sa.pl.color_list_to_matrix_and_cmap(cluster_color_list)
-                sns.heatmap(mat.T, cmap=cmap, ax=lax, xticklabels=False, yticklabels=False, cbar=False, rasterized=True)
+                sns.heatmap(mat.T, cmap=cmap, ax=lax, xticklabels=False, yticklabels=False, cbar=False, rasterized=False)
 
                 uniq, idx, num_vals = np.unique(clusters.T, return_index=True, return_counts=True)
                 y_locs = idx + num_vals / 2
@@ -548,7 +548,7 @@ def plot_consensus_matrix(
                 cluster_color_list, _ = sa.pl.series_to_colors(meta, cdict=cdict)
                 mat,cmap = sa.pl.color_list_to_matrix_and_cmap(cluster_color_list)
                 sns.heatmap(mat.T, cmap=cmap, ax=lax, yticklabels=False, xticklabels=False, cbar=False)
-                lax.set_xlabel(meta.name, rotation=90)
+                lax.set_xlabel(meta.name, rotation=90, fontsize=16)
 
             for _, spine in lax.spines.items():
                 spine.set_visible(True)
@@ -630,7 +630,7 @@ def plot_marker_heatmap_fig1(
     y1 = ax.get_position().y1
     buf = y1*0.01
 
-    sns.heatmap(sample_markers, ax=ax, cmap=cmap, rasterized=True, vmax=vmax, vmin=vmin, cbar=False)
+    sns.heatmap(sample_markers, ax=ax, cmap=cmap, rasterized=False, vmax=vmax, vmin=vmin, cbar=False)
     v,c = np.unique(order_series, return_counts=True)
 
     # plot horizontal lines
@@ -638,18 +638,18 @@ def plot_marker_heatmap_fig1(
     _ci = np.roll(_c,2)
     _ci[0] = 0
     _ci[1] = 0
-    ax.hlines(hz_lines, _ci, _c, rasterized=True, color='k')
+    ax.hlines(hz_lines, _ci, _c, rasterized=False, color='k')
 
     # plot vertical lines
     _h = list(hz_lines)
     _h.append(ax.get_ylim()[0])
-    ax.vlines(np.cumsum(c)[:-1], _h[:-2], _h[2:], rasterized=True , color='k')
-    ax.vlines(np.cumsum(c)[:-1], *ax.get_ylim(), alpha=0.8, rasterized=True, linewidth=1 , color='lightgrey')
+    ax.vlines(np.cumsum(c)[:-1], _h[:-2], _h[2:], rasterized=False , color='k')
+    ax.vlines(np.cumsum(c)[:-1], *ax.get_ylim(), alpha=0.8, rasterized=False, linewidth=1 , color='lightgrey')
 
     # Set yticks
     ax.yaxis.tick_right()
     ax.set_yticks(np.arange(sample_markers.index.values.shape[0])+0.5)
-    ax.set_yticklabels(sample_markers.index.values, fontsize=7.5, rasterized=True, rotation=0, va="center")
+    ax.set_yticklabels(sample_markers.index.values, fontsize=7.5, rasterized=False, rotation=0, va="center")
 
     # --------------cluster annot-------------------
     for idx,meta in enumerate(metas):
