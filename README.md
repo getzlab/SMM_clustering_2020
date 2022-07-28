@@ -1,12 +1,16 @@
-# SMM Clustering 2020
+# Subtypes of Smoldering Multiple Myelomae
 
 Repo for Manuscript:
 
-**Genetic Subtypes of Smoldering Multiple Myeloma are associated with Distinct Pathogenic Phenotypes and Clinical Outcomes**
+Bustoros, M., Anand, S., et al. "Genetic subtypes of smoldering multiple myeloma are associated with distinct pathogenic phenotypes and clinical outcomes." Nature communications 13.1 (2022): 1-10.
 
 [Link](https://www.biorxiv.org/content/10.1101/2021.12.10.471975v1) to pre-print.
 
-Contact: Shankara Anand - sanand@broadinstitute.org
+[Link](https://www.nature.com/articles/s41467-022-30694-w) to _Nature Communications_ publication.
+
+__Contact__: Shankara Anand - sanand@broadinstitute.org
+
+---
 
 Table of DNA-based SMM subtypes
 
