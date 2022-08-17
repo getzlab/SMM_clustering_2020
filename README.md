@@ -1,4 +1,4 @@
-# Subtypes of Smoldering Multiple Myelomae
+# Subtypes of Smoldering Multiple Myeloma
 
 Repo for Manuscript:
 
